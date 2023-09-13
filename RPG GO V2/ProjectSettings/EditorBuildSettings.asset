@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/world.unity
+    guid: 4d5669205af76ae4db77f08ca4873cc2
+  - enabled: 1
+    path: Assets/Scenes/Battle/ARBattle.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Battle/Battle.unity
+    guid: c29dda068811da24c8253e0bdedce2a6
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 17b00374ed3f0bc45ba5d9314c1e6f41, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c606accd835b6548aa437dc152659e4, type: 2}
