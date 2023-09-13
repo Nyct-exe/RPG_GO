@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-10-11" view-index="0" gantt-divider-location="725" resource-divider-location="300" version="3.1.3103" locale="en_GB">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="395" order="0"/>
+        <field id="tpd4" name="Begin date" width="127" order="1"/>
+        <field id="tpd5" name="End date" width="199" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="69" name="Semester 1" color="#8cb6ce" meeting="false" start="2021-10-11" duration="70" complete="0" thirdDate="2021-12-16" thirdDate-constraint="0" expand="true">
+            <depend id="80" type="2" difference="0" hardness="Strong"/>
+            <task id="71" name="Learning the Fundamentals of Unity" color="#8cb6ce" meeting="false" start="2021-10-11" duration="10" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" name="Learning Fundamentals of C#" color="#8cb6ce" meeting="false" start="2021-10-25" duration="10" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="73" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="73" name="Find necessary assets for the project" color="#8cb6ce" meeting="false" start="2021-11-08" duration="3" complete="0" thirdDate="2021-11-11" thirdDate-constraint="0" expand="true">
+                <depend id="74" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="74" name="Implement Surface Recognition for AR" color="#8cb6ce" meeting="false" start="2021-11-11" duration="3" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="75" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="75" name="Write Interim Report" color="#8cb6ce" meeting="false" start="2021-11-16" duration="8" complete="0" thirdDate="2021-10-28" thirdDate-constraint="0" expand="true">
+                <depend id="76" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" name="Implement a 3D monster trough AR" color="#8cb6ce" meeting="false" start="2021-11-26" duration="3" complete="0" thirdDate="2021-11-05" thirdDate-constraint="0" expand="true">
+                <depend id="77" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="77" name="JSON Data Storage Implementation" color="#8cb6ce" meeting="false" start="2021-12-01" duration="7" complete="0" thirdDate="2021-11-25" thirdDate-constraint="0" expand="true">
+                <depend id="78" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="78" name="Combat Implementation" color="#8cb6ce" meeting="false" start="2021-12-10" duration="11" complete="0" thirdDate="2021-11-25" thirdDate-constraint="0" expand="true">
+                <depend id="137" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="137" name="Detection of Phone shaking and Implementation in a Combat Encounter" color="#8cb6ce" meeting="false" start="2021-12-27" duration="15" complete="0" thirdDate="2021-12-09" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="80" name="Semester 2" color="#000000" meeting="false" start="2022-01-17" duration="85" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+            <task id="125" name="Dungeon Implementation" color="#8cb6ce" meeting="false" start="2022-01-17" duration="7" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+                <depend id="87" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="87" name="Mapbox Implementation" color="#8cb6ce" meeting="false" start="2022-01-26" duration="10" complete="0" thirdDate="2021-11-16" thirdDate-constraint="0" expand="true"/>
+            <task id="311" name="Live GPS Tracking of the Player" color="#8cb6ce" meeting="false" start="2022-02-01" duration="7" complete="0" thirdDate="2022-02-04" thirdDate-constraint="0" expand="true">
+                <depend id="337" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="337" name="Implementing Previously developed features into the Mapbox" color="#8cb6ce" meeting="false" start="2022-02-10" duration="10" complete="0" thirdDate="2022-01-17" thirdDate-constraint="0" expand="true">
+                <depend id="86" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="148" name="Preperation for the Interview" color="#8cb6ce" meeting="false" start="2022-02-14" duration="6" complete="0" thirdDate="2022-02-15" thirdDate-constraint="0" expand="true"/>
+            <task id="86" name="Monster Log Implementation" color="#8cb6ce" meeting="false" start="2022-02-24" duration="5" complete="0" thirdDate="2021-12-29" thirdDate-constraint="0" expand="true">
+                <depend id="178" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="178" name="Polishing and writing Tests" color="#8cb6ce" meeting="false" start="2022-03-03" duration="21" complete="0" thirdDate="2022-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="200" name="Disertation Writing" color="#8cb6ce" meeting="false" start="2022-02-24" duration="50" complete="0" thirdDate="2022-04-01" thirdDate-constraint="0" expand="true">
+                <depend id="307" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="307" name="Preperation for Mini Viva" color="#8cb6ce" meeting="false" start="2022-05-05" duration="7" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
